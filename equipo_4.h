@@ -16,4 +16,4 @@ void lista_ordenada (struct agenda * per);
 void imprimir_lista (struct agenda * per);
 
 #include "equipo_4.c"
-#endif
+#endif 

@@ -1,4 +1,4 @@
-#include "equipo_4.h"
+#include "equipo_4.h" 
 
 int menu() {
     int opc;
