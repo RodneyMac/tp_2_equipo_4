@@ -67,11 +67,12 @@ void del_per (struct agenda * per) {
                 printf("\nContacto Borrado \n", per[i].flag);
                 break;
             }
-            else {
-                i=0;
+
+            if(nombre[1]=='N' || nombre[1]=='n') {
+                i=-1;
             }
         }
-        if(i<cap_max) {
+        if(i==cap_max) {
             printf("Contacto no existe\n");
             i=-1;
         }
